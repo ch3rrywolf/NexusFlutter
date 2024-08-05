@@ -78,4 +78,21 @@ void main() {
 // dart comments
 //
 /**/
+// dart if else statement
+void main() {
+  int voyage = 5000;
+  int laptop = 3000;
+  int iphone = 3500;
+  int solde = 3600;
+
+  if (solde > laptop) {
+    print('okey bye laptop');
+  } else if (solde > iphone) {
+    print('okey bye iphone');
+  } else if (solde > voyage) {
+    print('go voyage');
+  } else {
+    print('work hard');
+  }
+}
 */
