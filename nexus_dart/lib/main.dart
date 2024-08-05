@@ -128,4 +128,12 @@ void main() {
   // }
   // print("Stop! line");
 }
+// dart while loop
+void main() {
+  // int year = 2015;
+  // while (year < 2024) {
+  //   print(year);
+  //   year++;
+  }
+}
 */
