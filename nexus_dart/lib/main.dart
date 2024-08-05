@@ -117,4 +117,15 @@ void main() {
   //     break;
   // }
 }
+// dart for loop
+void main() {
+  // int year;
+  // for (year = 1900; year < 2024; year++) {
+  //   if (year == 1996) {
+  //     print("$year it's my birth");
+  //   }
+  //   print(year);
+  // }
+  // print("Stop! line");
+}
 */
