@@ -153,5 +153,12 @@ void main() {
   // year++;
   // }
 }
+// dart continue
+void main() {
+  // int year = 2024;
+  // for (year = 2024; year <= 2030; year++) {
+  //   if (year > 2027 && year < 2030) continue;
+  //   print(year);
+  // }
+}
 */
-
