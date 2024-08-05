@@ -136,4 +136,12 @@ void main() {
   //   year++;
   }
 }
+// dart do while
+void main() {
+  // int year = 2024;
+  // do{
+  // print(year);
+  // year++;
+  // }while(year <= 2025);
+}
 */
