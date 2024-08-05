@@ -30,25 +30,25 @@ void main() {
 }
 // dart arithmetic operation
 void main () {
-  int one = 1;
-  int two = 2;
-  int addition = one + two;
-  int substution = two - one;
-  double division = two / one;
-  int divisionStrict = two ~/ one;
-  int restDivision = two % one;
-  a++;
-  a--;
-  print(three);
+  // int one = 1;
+  // int two = 2;
+  // int addition = one + two;
+  // int substution = two - one;
+  // double division = two / one;
+  // int divisionStrict = two ~/ one;
+  // int restDivision = two % one;
+  // a++;
+  // a--;
+  // print(three);
 }
 // dart quality and relational operators
 void main () {
-  int a = 10;
-  int b = 20;
-  print(a == b)
-  print(a != b)
-  print(a > b)
-  print(a >= b)
+  // int a = 10;
+  // int b = 20;
+  // print(a == b)
+  // print(a != b)
+  // print(a > b)
+  // print(a >= b)
 }
 // dart type operators and assignment operators 
 void main() {
@@ -76,24 +76,24 @@ void main() {
   // print(!(age > 25 || exp > 3));
 }
 // dart comments
-//
-/**/
+  //
+  /**/
 // dart if else statement
 void main() {
-  int voyage = 5000;
-  int laptop = 3000;
-  int iphone = 3500;
-  int solde = 3600;
+  // int voyage = 5000;
+  // int laptop = 3000;
+  // int iphone = 3500;
+  // int solde = 3600;
 
-  if (solde > laptop) {
-    print('okey bye laptop');
-  } else if (solde > iphone) {
-    print('okey bye iphone');
-  } else if (solde > voyage) {
-    print('go voyage');
-  } else {
-    print('work hard');
-  }
+  // if (solde > laptop) {
+  //   print('okey bye laptop');
+  // } else if (solde > iphone) {
+  //   print('okey bye iphone');
+  // } else if (solde > voyage) {
+  //   print('go voyage');
+  // } else {
+  //   print('work hard');
+  // }
 }
 // dart switch case
 void main() {
@@ -144,4 +144,14 @@ void main() {
   // year++;
   // }while(year <= 2025);
 }
+// dart break
+void main() {
+  // int year = 2020;
+  // while(year <= 2030) {
+  // print(year);
+  // if(year == 2024) break;
+  // year++;
+  // }
+}
 */
+
