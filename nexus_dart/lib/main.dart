@@ -95,4 +95,26 @@ void main() {
     print('work hard');
   }
 }
+// dart switch case
+void main() {
+  // int solde = 3600;
+
+  // switch (solde) {
+  //   case 1000:
+  //     {
+  //       print("i have 1000 dt");
+  //     }
+  //     break;
+  //   case 2000:
+  //     {
+  //       print("i have 2000 dt");
+  //     }
+  //     break;
+  //   default:
+  //     {
+  //       print("i have $solde dt" );
+  //     }
+  //     break;
+  // }
+}
 */
