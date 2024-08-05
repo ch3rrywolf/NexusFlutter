@@ -66,4 +66,13 @@ void main() {
   // age %= 2;
   // print(age);
 }
+// dart logical operations
+void main() {
+  // int age = 28;
+  // int exp = 3;
+  // print(age > 25 && exp > 3);
+  // print(age > 25 || exp > 3);
+  // print(!(age > 25 && exp > 3));
+  // print(!(age > 25 || exp > 3));
+}
 */
