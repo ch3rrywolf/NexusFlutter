@@ -51,3 +51,18 @@ void main () {
   print(a >= b)
 }
 */
+void main() {
+  // String name = "wolf";
+  // print(name is String);
+  // print(name is! String);
+  // int? age;
+  // age ??= 28;
+  // print(age);
+  // int age = 28;
+  // age += 1;
+  // age -= 1;
+  // age *= 2;
+  // age ~/= 2;
+  // age %= 2;
+  // print(age);
+}
