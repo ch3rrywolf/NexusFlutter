@@ -28,4 +28,17 @@ void main() {
   //name = "wolf";
   //print(name.length);
 }
+// dart arithmetic operation
+void main () {
+  int one = 1;
+  int two = 2;
+  int addition = one + two;
+  int substution = two - one;
+  double division = two / one;
+  int divisionStrict = two ~/ one;
+  int restDivision = two % one;
+  a++;
+  a--;
+  print(three);
+}
 */
