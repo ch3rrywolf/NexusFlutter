@@ -232,4 +232,14 @@ void main() {
   // print(tools.reversed.toList());
   // print(tools.single);
 }
+// dart list add addAll insert insertAll
+void main() {
+  // List tools = ["x", "xx", "xxx", "xxxx"];
+  // tools.add("xxxxx");
+  // tools.add(["l","ll"]);
+  // tools.addAll(["l","ll"]);
+  // tools.insert(0, "m");
+  // tools.insertAll(2, ["m", "mm"]);
+  // print(tools);
+}
 */
