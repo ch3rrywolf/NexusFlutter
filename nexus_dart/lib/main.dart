@@ -221,4 +221,15 @@ void main() {
   //   print(tool);
   // });
 }
+// dart list first last isEmpty isNotEmpty reversed single
+void main() {
+  // List tools = ["x", "xx", "xxx", "xxxx"];
+  // print(tools.first);
+  // print(tools.last);
+  // print(tools.isEmpty);
+  // print(tools.isNotEmpty);
+  // print(tools.reversed);
+  // print(tools.reversed.toList());
+  // print(tools.single);
+}
 */
