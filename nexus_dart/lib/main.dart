@@ -242,4 +242,13 @@ void main() {
   // tools.insertAll(2, ["m", "mm"]);
   // print(tools);
 }
+// dart list methode
+void main() {
+  // List tools = ["x", "xx", "xxx", "xxxx"];
+  // tools.replaceRange(0, 3, ["xxxx", "xxxx", "xxxx"]);
+  // tools.remove("xxxx");
+  // tools.removeAt(0);
+  // tools.removeRange(0,3);
+  // print(tools);
+}
 */
