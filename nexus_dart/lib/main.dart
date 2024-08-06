@@ -161,4 +161,23 @@ void main() {
   //   print(year);
   // }
 }
+// dart number
+void main() {
+  // double j = 15.50;
+  // print(j.isFinite);
+  // print(j.isInfinite);
+  // print(j.isNegative);
+  // print(j.sign);
+  // print(j.isEven);
+  // print(j.isOdd);
+  // print(j.ceil());
+  // print(j.floor());
+  // print(j.abs());
+  // print(j.round());
+  // print(j.toDouble());
+  // print(j.toString());
+  // print(j.toInt());
+  // print(j.compareTo(20));
+  // print(j is Type);
+}
 */
