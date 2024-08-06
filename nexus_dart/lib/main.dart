@@ -198,4 +198,12 @@ void main() {
   // String newname = name.replaceAll("lf", "xx");
   // print(newname);
 }
+// dart list
+void main() {
+  // List tools = ["w", ["x","xe", ["p","pg"] ] , "l", "f"];
+  // print(tools);
+  // print(tools[2]);
+  // print(tools[1][1]);
+  // print(tools[1][2][0]);
+}
 */
