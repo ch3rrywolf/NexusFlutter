@@ -163,6 +163,7 @@ void main() {
 }
 // dart number
 void main() {
+  // String d = "10";
   // double j = 15.50;
   // print(j.isFinite);
   // print(j.isInfinite);
@@ -178,6 +179,7 @@ void main() {
   // print(j.toString());
   // print(j.toInt());
   // print(j.compareTo(20));
-  // print(j is Type);
+  // print(j is int);
+  // print(num.parse(d) is int);
 }
 */
