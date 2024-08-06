@@ -206,4 +206,19 @@ void main() {
   // print(tools[1][1]);
   // print(tools[1][2][0]);
 }
+// dart list add length
+void main() {
+  // List tools = ["x", "x", "x"];
+  // tools[0] = "w";
+  // tools[1] = "o";
+  // tools[2] = "l";
+  // tools.add("f");
+  // print(tools);
+  // for (int x = 0; x < tools.length; x++) {
+  //   print(tools[x]);
+  // }
+  // tools.forEach((tool) {
+  //   print(tool);
+  // });
+}
 */
