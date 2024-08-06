@@ -182,4 +182,20 @@ void main() {
   // print(j is int);
   // print(num.parse(d) is int);
 }
+// dart string methode
+void main() {
+  // String name = " wolf ";
+  // String lastname = "ch3rry";
+  // int x = 20;
+  // print(name + " " + lastname + " ${x + 3} ");
+  // print(name.isEmpty);
+  // print(name.isNotEmpty);
+  // print(name.length);
+  // print(name.toLowerCase());
+  // print(name.toUpperCase());
+  // print(name.compareTo("w"));
+  // print(name.replaceAll("w", "x"));
+  // String newname = name.replaceAll("lf", "xx");
+  // print(newname);
+}
 */
