@@ -282,4 +282,11 @@ void main() {
   // print(name);
   // print(name is int);
 }
+// dart final and const
+void main() {
+  // const name = 2;
+  // final name = 'vlad';
+  // print(name);
+  // print(name is int);
+}
 */
