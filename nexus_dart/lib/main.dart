@@ -268,4 +268,11 @@ void main() {
   // champ.clear();
   // print(champ);
 }
+// dart map p2
+void main() {
+  // Map champ = {"name": "vlad", "dmg": 100, "role": "mid"};
+  // champ.addAll({"item": "rabadon"});
+  // Map champ = { 1: ["vlad","mid",{"test": "ok", 1: {"work": 27}} ] };
+  // print(champ);
+}
 */
