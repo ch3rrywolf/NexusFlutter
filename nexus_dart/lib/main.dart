@@ -253,5 +253,19 @@ void main() {
   // print(tools);
 }
 ### DAY 2 ###
-### DAY 3 ###
+// dart map
+void main() {
+  // Map champ = {"name": "vlad", "dmg": 100, "role": "mid"};
+  // champ.forEach((key, value) {
+  //   print(key);
+  //   print(value);
+  // });
+  // print(champ.values);
+  // print(champ.length);
+  // champ.remove("dmg");
+  // print(champ.values);
+  // print(champ.length);
+  // champ.clear();
+  // print(champ);
+}
 */
