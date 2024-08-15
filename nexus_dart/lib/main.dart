@@ -275,4 +275,11 @@ void main() {
   // Map champ = { 1: ["vlad","mid",{"test": "ok", 1: {"work": 27}} ] };
   // print(champ);
 }
+// dart dynamic var
+void main() {
+  // var name = 2;
+  // var name = 'vlad';
+  // print(name);
+  // print(name is int);
+}
 */
