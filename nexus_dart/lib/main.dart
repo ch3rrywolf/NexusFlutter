@@ -407,4 +407,10 @@ void main() {
   // assert(condition, "message");
   // print(a);
 }
+// dart max min
+import 'dart:math';
+void main() {
+  // print(min(10, 52));
+  // print(max(10, 52));
+}
 */
