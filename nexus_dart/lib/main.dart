@@ -294,11 +294,29 @@ void main() {
   // Set champ = {"vlad", "lux", "olaf"}; // remove ++
   // print(champ);
 }
-// dart convert betwen List Map Set
+// dart convert betwen List Set
 void main() {
   // List player = ["wolf", "ch3rry", "ch3rry"];
   // print(player.toSet());
   // Set player2 = {"wolf", "ch3rry", "ch3rry"};
   // print(player.toList());
+}
+// dart convert betwen List Map Set
+void main() {
+  // List testKey = [];
+  // Set keyTest = {};
+  // Set valueTest = {};
+  // List testValue = [];
+  // Map player = {"name": "wolf", "lastname": "ch3rry"};
+  // player.forEach((key, value) {
+  //   testKey.add(key);
+  //   testValue.add(value);
+  //   keyTest.add(key);
+  //   valueTest.add(value);
+  // });
+  // print(testKey);
+  // print(testValue);
+  // print(keyTest);
+  // print(valueTest);
 }
 */
