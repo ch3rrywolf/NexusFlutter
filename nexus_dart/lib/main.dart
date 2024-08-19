@@ -354,7 +354,6 @@ void main() {
 //   avg(mylistnumber1);
 //   avg(mylistnumber2);
 // }
-
 // avg(List<int> number) {
 //   int sum = 0;
 //   for (int i = 0; i < number.length; i++) {
