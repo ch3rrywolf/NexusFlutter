@@ -400,4 +400,11 @@ void main() {
 //   String emoji = "\u{1F601}";
 //   print(emoji);
 // }
+// dart assert
+void main() {
+  // int a;
+  // assert(a != null, "a != null");
+  // assert(condition, "message");
+  // print(a);
+}
 */
