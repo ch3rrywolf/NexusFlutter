@@ -347,4 +347,19 @@ void main() {
   // print(y);
   // print(z);
 }
+// dart example 1
+// List<int> mylistnumber1 = [10, 20, 30, 40, 50, 60];
+// List<int> mylistnumber2 = [70, 80, 90, 100, 110, 120];
+// void main() {
+//   avg(mylistnumber1);
+//   avg(mylistnumber2);
+// }
+
+// avg(List<int> number) {
+//   int sum = 0;
+//   for (int i = 0; i < number.length; i++) {
+//     sum += number[i];
+//   }
+//   print(sum / number.length);
+// }
 */
