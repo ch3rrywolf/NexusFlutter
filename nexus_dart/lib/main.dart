@@ -395,4 +395,9 @@ void main() {
 //     print("this formule not have any solution");
 //   }
 // }
+// dart Runes
+// void main() {
+//   String emoji = "\u{1F601}";
+//   print(emoji);
+// }
 */
