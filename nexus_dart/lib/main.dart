@@ -373,7 +373,7 @@ void main() {
   // });
 }
 // dart example 3
-// import 'dart:math' as math;
+// import 'dart:math' as w;
 // int delta = 0;
 // double s1 = 0;
 // double s2 = 0;
@@ -383,8 +383,8 @@ void main() {
 // twodeg(int a, int b, int c) {
 //   int delta = (b * b) - (4 * (a * c));
 //   if (delta > 0) {
-//     s1 = ((-b) + (math.sqrt(delta))) / (2 * a);
-//     s2 = ((-b) - (math.sqrt(delta))) / (2 * a);
+//     s1 = ((-b) + (w.sqrt(delta))) / (2 * a);
+//     s2 = ((-b) - (w.sqrt(delta))) / (2 * a);
 //     print("this formule have two solution ");
 //     print("solution 1 : ${s1} and solution 2 : ${s2}");
 //   } else if (delta == 0) {
