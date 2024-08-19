@@ -338,4 +338,13 @@ void main() {
   // print(result);
 }
 // dart Scoop
+// dart import
+// import 'x.dart';
+// import '../y.dart';
+// import './z/z.dart';
+void main() {
+  // print(x);
+  // print(y);
+  // print(z);
+}
 */
