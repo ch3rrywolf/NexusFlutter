@@ -319,4 +319,12 @@ void main() {
   // print(keyTest);
   // print(valueTest);
 }
+// dart function
+void main() {
+  // Add(int one, int two) {
+  //   int three = one + two;
+  //   print(three);
+  // }
+  // Add(1, 2);
+}
 */
