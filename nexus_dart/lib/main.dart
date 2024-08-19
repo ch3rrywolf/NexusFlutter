@@ -361,4 +361,15 @@ void main() {
 //   }
 //   print(sum / number.length);
 // }
+// dart example 2
+void main() {
+  // List players = [
+  //   {"name": "wolf", "lastname": "ch3rry"},
+  //   {"name": "vin", "lastname": "test"}
+  // ];
+  // players.forEach((x) {
+  //   print("name : ${x['name']}");
+  //   print("lastname : ${x['lastname']}");
+  // });
+}
 */
