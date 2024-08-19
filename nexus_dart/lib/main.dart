@@ -327,4 +327,14 @@ void main() {
   // }
   // Add(1, 2);
 }
+// dart function type
+void main() {
+  // two type function void and return
+  // int Add(int one, int two) {
+  //   int three = one + two;
+  //   return three;
+  // }
+  // int result = Add(1, 2);
+  // print(result);
+}
 */
