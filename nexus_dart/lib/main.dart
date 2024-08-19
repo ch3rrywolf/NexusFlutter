@@ -294,4 +294,11 @@ void main() {
   // Set champ = {"vlad", "lux", "olaf"}; // remove ++
   // print(champ);
 }
+// dart convert betwen List Map Set
+void main() {
+  // List player = ["wolf", "ch3rry", "ch3rry"];
+  // print(player.toSet());
+  // Set player2 = {"wolf", "ch3rry", "ch3rry"};
+  // print(player.toList());
+}
 */
