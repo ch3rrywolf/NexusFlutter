@@ -421,3 +421,31 @@ void main() {
   // print(player2);
 }
 */
+// dart FirstWhere AsMap WhereType
+void main() {
+  // List names = ["test", "test2", "test3", 5, 4, 45];
+  List names = [5, 4, 45];
+  List names2 = ["5", "4", "45"];
+  // List subList = names.sublist(2, 3);
+  // List shuffleList = names.shuffle();
+  // List namesmap = names.asMap();
+  // var namesType = names.whereType<int>();
+  // var namesTypeToList = names.whereType<int>().toList();
+  // var namesTypeToSet = names.whereType<int>().toSet();
+  // var namesFirstWhere = names.firstWhere((n) => n > 10);
+  // var namesFirstWhere2 = names2.firstWhere((n) => (n.length > 1));
+  var namesAny = names2.any((e) => (e.length > 1));
+  var namesEvery = names2.any((e) => (e.length > 2));
+
+  // print(names);
+  // print(namesmap);
+  // print(subList);
+  // print(shuffleList);
+  // print(namesType);
+  // print(namesTypeToList);
+  // print(namesTypeToSet);
+  // print(namesFirstWhere);
+  // print(namesFirstWhere2);
+  print(namesAny);
+  print(namesEvery);
+}
