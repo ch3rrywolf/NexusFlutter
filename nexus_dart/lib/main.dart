@@ -436,6 +436,8 @@ void main() {
   // var namesFirstWhere2 = names2.firstWhere((n) => (n.length > 1));
   var namesAny = names2.any((e) => (e.length > 1));
   var namesEvery = names2.any((e) => (e.length > 2));
+  var namesTake = names2.take(2);
+  var namesTakeToList = names2.take(2).toList();
 
   // print(names);
   // print(namesmap);
@@ -448,4 +450,6 @@ void main() {
   // print(namesFirstWhere2);
   print(namesAny);
   print(namesEvery);
+  print(namesTake);
+  print(namesTakeToList);
 }
