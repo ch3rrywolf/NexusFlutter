@@ -421,11 +421,11 @@ void main() {
   // print(player2);
 }
 */
-// dart FirstWhere AsMap WhereType
+// dart FirstWhere AsMap WhereType Every Any Take TAkeToList
 void main() {
   // List names = ["test", "test2", "test3", 5, 4, 45];
-  List names = [5, 4, 45];
-  List names2 = ["5", "4", "45"];
+  // List names = [5, 4, 45];
+  // List names2 = ["5", "4", "45"];
   // List subList = names.sublist(2, 3);
   // List shuffleList = names.shuffle();
   // List namesmap = names.asMap();
@@ -434,10 +434,10 @@ void main() {
   // var namesTypeToSet = names.whereType<int>().toSet();
   // var namesFirstWhere = names.firstWhere((n) => n > 10);
   // var namesFirstWhere2 = names2.firstWhere((n) => (n.length > 1));
-  var namesAny = names2.any((e) => (e.length > 1));
-  var namesEvery = names2.any((e) => (e.length > 2));
-  var namesTake = names2.take(2);
-  var namesTakeToList = names2.take(2).toList();
+  // var namesAny = names2.any((e) => (e.length > 1));
+  // var namesEvery = names2.any((e) => (e.length > 2));
+  // var namesTake = names2.take(2);
+  // var namesTakeToList = names2.take(2).toList();
 
   // print(names);
   // print(namesmap);
@@ -448,8 +448,8 @@ void main() {
   // print(namesTypeToSet);
   // print(namesFirstWhere);
   // print(namesFirstWhere2);
-  print(namesAny);
-  print(namesEvery);
-  print(namesTake);
-  print(namesTakeToList);
+  // print(namesAny);
+  // print(namesEvery);
+  // print(namesTake);
+  // print(namesTakeToList);
 }
