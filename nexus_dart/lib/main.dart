@@ -413,4 +413,11 @@ void main() {
   // print(min(10, 52));
   // print(max(10, 52));
 }
+// dart Data Type
+void main() {
+  // List<String> players = ["test" , "test2" , "five"];
+  // Set<String> players = ["test" , "test2" , "five"];
+  // Map<String, String> player2 = {"test": "test2", "five": "5"};
+  // print(player2);
+}
 */
