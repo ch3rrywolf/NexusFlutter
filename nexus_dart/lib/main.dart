@@ -485,4 +485,15 @@ void main() {
   // List infoValue = trte.entries.map((e) => e.value).toList();
   // print(infoValue);
 }
+// dart Try and Catch
+// void main() {
+//   int x = 10;
+//   int z = 0;
+//   try {
+//     int res = x ~/ z;
+//     print(res);
+//   } catch (e) {
+//     print("Error :  $e");
+//   }
+// }
 */
