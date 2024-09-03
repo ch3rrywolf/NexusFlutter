@@ -420,7 +420,7 @@ void main() {
   // Map<String, String> player2 = {"test": "test2", "five": "5"};
   // print(player2);
 }
-// dart FirstWhere AsMap WhereType Every Any Take TAkeToList where indexWhere firstWhere Startwith EndWith Contains
+// dart FirstWhere AsMap WhereType Every Any Take TakeToList where indexWhere firstWhere Startwith EndWith Contains
 void main() {
   // String names = "test";
   // List names = ["test", "test2", "test3", 5, 4, 45];
@@ -441,7 +441,6 @@ void main() {
   // var namesFirstWhere = names2.where((e) => e.length == 4);
   // var namesFirstWhere = names2.whereFirst((e) => e.length == 4);
   // var namesIndexWhere = names2.indexWhere((e) => e.length == 4);
-
   // print(names.startsWith("t"));
   // print(names.endsWith("t"));
   // print(names.indexOf("t"));
@@ -463,11 +462,27 @@ void main() {
   // print(namesTake);
   // print(namesTakeToList);
 }
-// dart Interator and iterable
+// dart Iterator and iterable
+// void main() {
+  // Iterable names = ["test", "test1", "test2"];
+  // for (String name in names) {
+    // print(name);
+  // }
+// }
+// dart Map methode
 void main() {
-  Iterable names = ["test", "test1", "test2"];
-  for (String name in names) {
-    print(name);
-  }
+  // List names = ["trtr", "trtr1", "trtr2"];
+  // var lengthElement = names.map((e) {
+  //   if (e == "trtr") {
+  //     return "yes";
+  //   }
+  //   return "hh";
+  // });
+  // print(lengthElement);
+  // Map trte = {"rr": "zs", "aa": "da"};
+  // List infoKey = trte.entries.map((e) => e.key).toList();
+  // print(infoKey);
+  // List infoValue = trte.entries.map((e) => e.value).toList();
+  // print(infoValue);
 }
 */
