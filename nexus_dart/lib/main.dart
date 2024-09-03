@@ -537,4 +537,20 @@ void main() {
 //     print(screen);
 //   }
 // }
+// dart reset variable
+// void main() {
+  // Mobile mobile = new Mobile("15.4");
+  //1- mobile.name = "test";
+  //2- cascade operator
+  //3- const // type
+  //4- Set
+  // print(mobile.screen);
+  // mobile.changeName("test2");
+// }
+// class Mobile {
+//   late String name;
+//   late String screen;
+
+//   Mobile(this.screen);
+// }
 */
