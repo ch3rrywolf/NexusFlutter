@@ -463,4 +463,11 @@ void main() {
   // print(namesTake);
   // print(namesTakeToList);
 }
+// dart Interator and iterable
+void main() {
+  Iterable names = ["test", "test1", "test2"];
+  for (String name in names) {
+    print(name);
+  }
+}
 */
