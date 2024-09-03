@@ -420,7 +420,7 @@ void main() {
   // Map<String, String> player2 = {"test": "test2", "five": "5"};
   // print(player2);
 }
-// dart FirstWhere AsMap WhereType Every Any Take TAkeToList
+// dart FirstWhere AsMap WhereType Every Any Take TAkeToList where indexWhere firstWhere
 void main() {
   // List names = ["test", "test2", "test3", 5, 4, 45];
   // List names = [5, 4, 45];
