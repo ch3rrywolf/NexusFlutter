@@ -528,5 +528,13 @@ void main() {
 //     print(screen);
 //   }
 // }
+// dart constructor
+// void main() {
+//   Mobile mobile = new Mobile("test");
+// }
+// class Mobile {
+//   Mobile(screen) {
+//     print(screen);
+//   }
+// }
 */
-
