@@ -496,4 +496,11 @@ void main() {
 //     print("Error :  $e");
 //   }
 // }
+// dart shorthand if
+// void main() {
+//   int x = 5;
+//   String most = "test";
+//   x >= 5 ? print("equale sup") : print("min");
+//   (most == "test") ? print("yes") : print("no");
+// }
 */
