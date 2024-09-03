@@ -503,4 +503,16 @@ void main() {
 //   x >= 5 ? print("equale sup") : print("min");
 //   (most == "test") ? print("yes") : print("no");
 // }
+// dart oop
+// void main() {
+//   Mobile mobile = new Mobile();
+//   mobile.name = "wolf";
+//   mobile.screen = "15.6";
+//   print(mobile.name);
+//   print(mobile.screen);
+// }
+// class Mobile {
+//   late String name;
+//   late String screen;
+// }
 */
