@@ -515,4 +515,18 @@ void main() {
 //   late String name;
 //   late String screen;
 // }
+// dart method class
+// void main() {
+//   Mobile mobile = new Mobile();
+//   mobile.screen = "6.4";
+//   mobile.printScreen();
+// }
+// class Mobile {
+//   late String name;
+//   late String screen;
+//   void printScreen() {
+//     print(screen);
+//   }
+// }
 */
+
