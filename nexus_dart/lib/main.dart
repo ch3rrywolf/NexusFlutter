@@ -420,8 +420,9 @@ void main() {
   // Map<String, String> player2 = {"test": "test2", "five": "5"};
   // print(player2);
 }
-// dart FirstWhere AsMap WhereType Every Any Take TAkeToList where indexWhere firstWhere
+// dart FirstWhere AsMap WhereType Every Any Take TAkeToList where indexWhere firstWhere Startwith EndWith Contains
 void main() {
+  // String names = "test";
   // List names = ["test", "test2", "test3", 5, 4, 45];
   // List names = [5, 4, 45];
   // List names2 = ["5", "4", "45"];
@@ -441,6 +442,10 @@ void main() {
   // var namesFirstWhere = names2.whereFirst((e) => e.length == 4);
   // var namesIndexWhere = names2.indexWhere((e) => e.length == 4);
 
+  // print(names.startsWith("t"));
+  // print(names.endsWith("t"));
+  // print(names.indexOf("t"));
+  // print(names.contains('t'));
   // print(names);
   // print(namesWhere);
   // print(namesFirstWhere);
