@@ -437,8 +437,14 @@ void main() {
   // var namesEvery = names2.any((e) => (e.length > 2));
   // var namesTake = names2.take(2);
   // var namesTakeToList = names2.take(2).toList();
+  // var namesFirstWhere = names2.where((e) => e.length == 4);
+  // var namesFirstWhere = names2.whereFirst((e) => e.length == 4);
+  // var namesIndexWhere = names2.indexWhere((e) => e.length == 4);
 
   // print(names);
+  // print(namesWhere);
+  // print(namesFirstWhere);
+  // print(namesIndexWhere);
   // print(namesmap);
   // print(subList);
   // print(shuffleList);
