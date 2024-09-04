@@ -618,4 +618,27 @@ void main() {
 //   }
 // }
 // class Iphone extends Mobile {}
+// dart override
+// void main() {
+//   Classe s1 = new Classe();
+//   s1.printClasseName("xxxx");
+//   print(s1.role);
+//   print(s1.status);
+// }
+// class Player {
+//   late String name = "b";
+//   @override
+//   printClasseName(String val) {
+//     print("classe: $name");
+//   }
+//   late String role = "jf";
+//   late String status = "fdfz";
+// }
+// class Classe extends Player {
+//   late String name = "s";
+//   @override
+//   printClasseName(String val) {
+//     print("classe: $name");
+//   }
+// }
 */
