@@ -556,14 +556,19 @@ void main() {
 // dart setter and getter
 void main() {
   Mobile mobile = new Mobile();
-  mobile.changeMobileName = "sumsng";
+  // mobile.changeMobileName = "sumsng";
   print(mobile.mobilename);
 }
 
 class Mobile {
   String mobilename = "iphone";
 
-  void set changeMobileName(newname) {
-    this.mobilename = newname;
+  // void set changeMobileName(newmobilename) {
+  //   this.mobilename = newmobilename;
+  // }
+
+  String get newmobilename{
+    return newmobilename;
   }
+
 }
