@@ -571,4 +571,19 @@ void main() {
 //     }
 //   }
 // }
+// dart static
+// void main() {
+//   Mobile mobileone = new Mobile();
+//   Mobile mobiletwo = new Mobile();
+//   Mobile mobilethree = new Mobile();
+//   print(mobileone.name);
+//   print(mobiletwo.name);
+//   print(mobilethree.name);
+// }
+// class Mobile {
+//   static String username = "test";
+//   String get name {
+//     return username;
+//   }
+// }
 */
