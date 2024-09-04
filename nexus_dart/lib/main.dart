@@ -586,4 +586,19 @@ void main() {
 //     return username;
 //   }
 // }
+// dart cascade operator
+// void main() {
+//   Mobile mob = new Mobile();
+//   mob.testone();
+//   mob.testtwo();
+//   new Mobile()..testone()..testtwo();
+// }
+// class Mobile {
+//   void testone() {
+//     print("m 1");
+//   }
+//   void testtwo() {
+//     print("m 2");
+//   }
+// }
 */
