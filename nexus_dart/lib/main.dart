@@ -552,23 +552,23 @@ void main() {
 //   late String screen;
 //   Mobile(this.screen);
 // }
-*/
 // dart setter and getter
-void main() {
-  Mobile mobile = new Mobile();
-  // mobile.changeMobileName = "sumsng";
-  print(mobile.mobilename);
-}
-
-class Mobile {
-  String mobilename = "iphone";
-
-  // void set changeMobileName(newmobilename) {
-  //   this.mobilename = newmobilename;
-  // }
-
-  String get newmobilename{
-    return newmobilename;
-  }
-
-}
+// void main() {
+//   Mobile mobile = new Mobile();
+//   // mobile.changeMobileName = "sumsng";
+//   print(mobile.newname);
+// }
+// class Mobile {
+//   String mobilename = "iphone";
+//   void set changeMobileName(newname) {
+//     this.mobilename = newname;
+//   }
+//   String get newname {
+//     if (mobilename == "iphone") {
+//       return "yes";
+//     } else {
+//       return "no";
+//     }
+//   }
+// }
+*/
