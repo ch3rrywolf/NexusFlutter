@@ -550,7 +550,20 @@ void main() {
 // class Mobile {
 //   late String name;
 //   late String screen;
-
 //   Mobile(this.screen);
 // }
 */
+// dart setter and getter
+void main() {
+  Mobile mobile = new Mobile();
+  mobile.changeMobileName = "sumsng";
+  print(mobile.mobilename);
+}
+
+class Mobile {
+  String mobilename = "iphone";
+
+  void set changeMobileName(newname) {
+    this.mobilename = newname;
+  }
+}
