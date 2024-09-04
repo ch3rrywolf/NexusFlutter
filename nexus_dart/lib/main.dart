@@ -601,4 +601,21 @@ void main() {
 //     print("m 2");
 //   }
 // }
+// dart inheritance
+// void main() {
+//   Iphone iphone = new Iphone();
+//   iphone.name = "13 pro max";
+//   iphone.model = "2019";
+//   iphone.prix = "1590 dt";
+//   iphone.NameAndModelAndPrix();
+// }
+// class Mobile {
+//   late String name;
+//   late String model;
+//   late String prix;
+//   void NameAndModelAndPrix() {
+//     print("name: $name \nmodel: $model \nprix: $prix");
+//   }
+// }
+// class Iphone extends Mobile {}
 */
