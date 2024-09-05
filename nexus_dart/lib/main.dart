@@ -682,4 +682,19 @@ void main() {
 //   xyz() {}
 // }
 // dart collection
+// dart type map
+// void main() {
+//   Map test = new Map();
+//   Map hashTest = new HashMap();
+//   Map linkedHashTest = new LinkedHashMap();
+//   Map splayTreeTest = new SplayTreeMap();
+//   test.addAll({"name1": "one"});
+//   test.addAll({"name2": "two"});
+//   test.addAll({"name3": "three"});
+//   hashTest.addAll({"name1": "one"});
+//   hashTest.addAll({"name2": "two"});
+//   hashTest.addAll({"name3": "three"});
+//   print(test);
+//   print(hashTest);
+// }
 */
