@@ -642,4 +642,16 @@ void main() {
 //   }
 // }
 // dart multi level inherate
+// dart super class
+// void main() {
+//   Two newname = new Two("test");
+//   print(newname.username);
+// }
+// class One {
+//   final username;
+//   One(this.username);
+// }
+// class Two extends One {
+//   Two(username) : super(username);
+// }
 */
