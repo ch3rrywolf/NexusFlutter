@@ -664,4 +664,21 @@ void main() {
 // }
 // class Two extends One {
 // }
+// dart implements class
+// void main() {
+//   Two newname = new Two();
+//   print(newname.username);
+// }
+// abstract class One {
+//   late String username;
+//   xyz() {}
+// }
+// abstract class Number {
+//   late String num;
+// }
+// class Two implements One, Number {
+//   late String username = "test";
+//   late String num = "two";
+//   xyz() {}
+// }
 */
