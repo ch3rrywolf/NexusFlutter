@@ -654,4 +654,14 @@ void main() {
 // class Two extends One {
 //   Two(username) : super(username);
 // }
+// dart abstract class
+// void main() {
+//   Two newname = new Two();
+//   print(newname.username);
+// }
+// abstract class One {
+//   String username = "test";
+// }
+// class Two extends One {
+// }
 */
