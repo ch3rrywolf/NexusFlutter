@@ -697,4 +697,17 @@ void main() {
 //   print(test);
 //   print(hashTest);
 // }
+// dart enum
+// void main() {
+//   Status curstatus = Status.online;
+//   if (curstatus == Status.online) {
+//     print("online");
+//   } else {
+//     print("offline");
+//   }
+// }
+// enum Status {
+//   online,
+//   offline,
+// }
 */
