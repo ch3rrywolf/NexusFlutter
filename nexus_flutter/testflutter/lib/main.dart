@@ -4,64 +4,97 @@ void main() {
   runApp(MyApp());
 }
 
+List employee = [
+  {"name": "test", "age": "14"},
+  {"name": "test2", "age": "15"},
+  {"name": "test3", "age": "20"}
+];
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Scaffold(
-            appBar: AppBar(title: const Text("TAZZUS.apk")),
-            body: SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              // child: Column(
-              child: Row(
-                children: [
-                  // Text("TaZZus"),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.red,
-                  ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.orange,
-                  ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.blue,
-                  ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.green,
-                  ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.red,
-                  ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.orange,
-                  ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.blue,
-                  ),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    color: Colors.green,
-                  ),
-                  // Image.asset("images/taz.jpg"),
-                ],
-              ),
-            )));
+      home: Scaffold(
+        appBar: AppBar(title: const Text("TAZZUS.apk")),
+        body: Container(
+          height: 400,
+          child: ListView.builder(
+            itemCount: employee.length,
+            itemBuilder: (context, i) {
+              return Container(
+                  height: 100,
+                  color: Colors.amber,
+                  child: Text(
+                    employee[i]['name'],
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ));
+            },
+          ),
+        ),
+      ),
+    );
   }
 }
+
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//         home: Scaffold(
+//             appBar: AppBar(title: const Text("TAZZUS.apk")),
+//             body: SingleChildScrollView(
+//               scrollDirection: Axis.horizontal,
+//               // child: Column(
+//               child: Row(
+//                 children: [
+//                   // Text("TaZZus"),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.red,
+//                   ),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.orange,
+//                   ),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.blue,
+//                   ),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.green,
+//                   ),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.red,
+//                   ),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.orange,
+//                   ),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.blue,
+//                   ),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.green,
+//                   ),
+//                   // Image.asset("images/taz.jpg"),
+//                 ],
+//               ),
+//             )));
+//   }
+// }
 
 
 // class MyApp extends StatelessWidget {
