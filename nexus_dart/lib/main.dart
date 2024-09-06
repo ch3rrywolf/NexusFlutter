@@ -710,4 +710,13 @@ void main() {
 //   online,
 //   offline,
 // }
+// dart regular expressions
+// void main() {
+//   String patternPhone = r'(^(?:[+0]9)?[0-9]{1,12}$)';
+//   RegExp regExp = new RegExp(patternPhone);
+//   String phone = "29744655";
+//   print(regExp.hasMatch(phone));
+// }
+// dart private
+// dart mixin 
 */
