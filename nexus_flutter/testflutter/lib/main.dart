@@ -10,11 +10,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(title: const Text("TAZZUS.apk")),
-            body: Container(
-              width: 500,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
+            body: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              // child: Column(
+              child: Row(
                 children: [
                   // Text("TaZZus"),
                   Container(
@@ -22,12 +21,73 @@ class MyApp extends StatelessWidget {
                     height: 100,
                     color: Colors.red,
                   ),
-                  Image.asset("images/taz.jpg"),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.orange,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.green,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.red,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.orange,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.green,
+                  ),
+                  // Image.asset("images/taz.jpg"),
                 ],
               ),
             )));
   }
 }
+
+
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//         home: Scaffold(
+//             appBar: AppBar(title: const Text("TAZZUS.apk")),
+//             body: Container(
+//               width: 500,
+//               child: Column(
+//                 mainAxisAlignment: MainAxisAlignment.start,
+//                 crossAxisAlignment: CrossAxisAlignment.start,
+//                 children: [
+//                   // Text("TaZZus"),
+//                   Container(
+//                     width: 100,
+//                     height: 100,
+//                     color: Colors.red,
+//                   ),
+//                   Image.asset("images/taz.jpg"),
+//                 ],
+//               ),
+//             )));
+//   }
+// }
             // body: Container(
             //   // decoration: BoxDecoration(
             //   //     color: Colors.black,
