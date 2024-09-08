@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
             Card(
               child: ListTile(
                 // padding: EdgeInsets.all(20),
+                leading: Text("News"),
                 onTap: () {},
                 title: Text("Welcome"),
                 subtitle: Text("all !"),
