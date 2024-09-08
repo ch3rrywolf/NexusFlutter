@@ -1,40 +1,44 @@
+import 'package:flutter/material.dart';
 
-// void main() {
-//   runApp(MyApp());
-// }
+void main() {
+  runApp(MyApp());
+}
 
-// List employee = [
-//   {"name": "test", "age": "14"},
-//   {"name": "test2", "age": "15"},
-//   {"name": "test3", "age": "205"}
-// ];
+List employee = [
+  {"name": "test1", "age": "14"},
+  {"name": "test2", "age": "15"},
+  {"name": "test3", "age": "205"},
+  {"name": "test1", "age": "14"},
+  {"name": "test2", "age": "15"},
+  {"name": "test3", "age": "205"}
+];
 
-// class MyApp extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       home: Scaffold(
-//         appBar: AppBar(title: const Text("TAZZUS.apk")),
-//         body: Container(
-//           height: 400,
-//           child: ListView.builder(
-//             itemCount: employee.length,
-//             itemBuilder: (context, i) {
-//               return Container(
-//                   height: 100,
-//                   color: Colors.amber,
-//                   child: Text(
-//                     employee[i]['name'],
-//                     textAlign: TextAlign.center,
-//                     style: TextStyle(fontSize: 16, color: Colors.white),
-//                   ));
-//             },
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: const Text("TAZZUS.apk")),
+        body: Container(
+          height: 400,
+          child: ListView.builder(
+            itemCount: employee.length,
+            itemBuilder: (context, i) {
+              return Container(
+                  height: 100,
+                  color: Colors.amber,
+                  child: Text(
+                    employee[i]['name'],
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ));
+            },
+          ),
+        ),
+      ),
+    );
+  }
+}
 
 // class MyApp extends StatelessWidget {
 //   @override
