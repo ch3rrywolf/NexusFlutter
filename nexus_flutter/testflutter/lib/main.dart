@@ -23,43 +23,7 @@ class MyApp extends StatelessWidget {
                   fontStyle: FontStyle.italic))),
       body: Container(
         child: ListView(
-          children: [
-            Card(
-              color: Colors.yellow[200],
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(200)),
-              child: ListTile(
-                // padding: EdgeInsets.all(20),
-                // enabled: false,
-                isThreeLine: true,
-                leading: Text("News"),
-                onTap: () {
-                  print("one tap");
-                },
-                title: Text("Welcome"),
-                subtitle: Text("all !"),
-                trailing: Text("At 23:19"),
-              ),
-            ),
-            Card(
-              color: Colors.yellow[200],
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(200)),
-              child: ListTile(
-                // padding: EdgeInsets.all(20),
-                // enabled: false,
-                onLongPress: () {
-                  print("long press");
-                },
-                isThreeLine: true,
-                leading: Text("News"),
-                onTap: () {},
-                title: Text("Welcome"),
-                subtitle: Text("all !"),
-                trailing: Text("At 23:19"),
-              ),
-            )
-          ],
+          children: [],
         ),
       ),
     ));
