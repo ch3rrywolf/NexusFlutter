@@ -31,7 +31,18 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.w900,
                   backgroundColor: Colors.white,
                   fontStyle: FontStyle.italic))),
-      body: Container(),
+      body: Container(
+        child: ListView(
+          children: [
+            Card(
+              child: Container(
+                padding: EdgeInsets.all(20),
+                child: Text("Welcome"),
+              ),
+            )
+          ],
+        ),
+      ),
     ));
   }
 }
