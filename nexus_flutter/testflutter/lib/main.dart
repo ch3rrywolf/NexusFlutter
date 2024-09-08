@@ -26,27 +26,37 @@ class MyApp extends StatelessWidget {
                     fontSize: 60,
                     color: Colors.green,
                     fontWeight: FontWeight.w900,
-                    backgroundColor: Colors.black,
+                    backgroundColor: Colors.white,
                     fontStyle: FontStyle.italic))),
         body: Container(
-          width: 500,
-          height: 900,
-          child: ListView.builder(
+          child: ListView.separated(
+            separatorBuilder: (context, i) {
+              return Divider(
+                color: Colors.red,
+                thickness: 2.0,
+              ); //Container(color: Colors.white, height: 5);
+            },
             itemCount: employee.length,
             itemBuilder: (context, i) {
               return Container(
                   height: 150,
-                  color: Colors.black45,
+                  color: i.isEven
+                      ? Colors.black
+                      : const Color.fromARGB(255, 94, 1, 37),
                   child: Column(children: [
                     Text(
                       employee[i]['name'],
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 50, color: Colors.green),
+                      style: TextStyle(
+                          fontSize: 50,
+                          color: const Color.fromARGB(255, 75, 170, 78)),
                     ),
                     Text(
                       employee[i]['age'],
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 50, color: Colors.red),
+                      style: TextStyle(
+                          fontSize: 50,
+                          color: const Color.fromARGB(255, 136, 73, 207)),
                     ),
                   ]));
             },
