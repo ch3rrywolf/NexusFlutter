@@ -9,16 +9,6 @@ void main() {
 class MyApp extends StatelessWidget {
   MyApp({super.key});
 
-  // final List employee = [
-  //   {"name": "test1", "age": "14"},
-  //   {"name": "test2", "age": "15"},
-  //   {"name": "test3", "age": "205"},
-  //   {"name": "test1", "age": "14"},
-  //   {"name": "test2", "age": "15"},
-  //   {"name": "test3", "age": "205"},
-  //   {"name": "test3", "age": "205"}
-  // ];
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -35,9 +25,12 @@ class MyApp extends StatelessWidget {
         child: ListView(
           children: [
             Card(
-              child: Container(
-                padding: EdgeInsets.all(20),
-                child: Text("Welcome"),
+              child: ListTile(
+                // padding: EdgeInsets.all(20),
+                onTap: () {},
+                title: Text("Welcome"),
+                subtitle: Text("all !"),
+                trailing: Text("At 23:19"),
               ),
             )
           ],
