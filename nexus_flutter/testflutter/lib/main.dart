@@ -6,30 +6,38 @@ void main() {
   runApp(MyApp());
 }
 
-List employee = [
-  {"name": "test1", "age": "14"},
-  {"name": "test2", "age": "15"},
-  {"name": "test3", "age": "205"},
-  {"name": "test1", "age": "14"},
-  {"name": "test2", "age": "15"},
-  {"name": "test3", "age": "205"}
-];
-
 class MyApp extends StatelessWidget {
+  MyApp({super.key});
+
+  final List employee = [
+    {"name": "test1", "age": "14"},
+    {"name": "test2", "age": "15"},
+    {"name": "test3", "age": "205"},
+    {"name": "test1", "age": "14"},
+    {"name": "test2", "age": "15"},
+    {"name": "test3", "age": "205"}
+  ];
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-            title: const Text("TAZZUS.apk",
-                style: TextStyle(
-                    fontSize: 60,
-                    color: Colors.green,
-                    fontWeight: FontWeight.w900,
-                    backgroundColor: Colors.white,
-                    fontStyle: FontStyle.italic))),
-        body: Container(
+        home: Scaffold(
+      appBar: AppBar(
+          title: const Text("TAZZUS.apk",
+              style: TextStyle(
+                  fontSize: 60,
+                  color: Colors.green,
+                  fontWeight: FontWeight.w900,
+                  backgroundColor: Colors.white,
+                  fontStyle: FontStyle.italic))),
+      body: ListView(children: [
+        Container(
+          child: Text("Welcome"),
+        ),
+        Container(
           child: ListView.separated(
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
             separatorBuilder: (context, i) {
               return Divider(
                 color: Colors.red,
@@ -62,8 +70,8 @@ class MyApp extends StatelessWidget {
             },
           ),
         ),
-      ),
-    );
+      ]),
+    ));
   }
 }
 
