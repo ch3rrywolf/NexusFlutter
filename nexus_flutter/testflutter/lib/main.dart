@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,20 +20,35 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("TAZZUS.apk")),
+        appBar: AppBar(
+            title: const Text("TAZZUS.apk",
+                style: TextStyle(
+                    fontSize: 60,
+                    color: Colors.green,
+                    fontWeight: FontWeight.w900,
+                    backgroundColor: Colors.black,
+                    fontStyle: FontStyle.italic))),
         body: Container(
-          height: 400,
+          width: 500,
+          height: 900,
           child: ListView.builder(
             itemCount: employee.length,
             itemBuilder: (context, i) {
               return Container(
-                  height: 100,
-                  color: Colors.amber,
-                  child: Text(
-                    employee[i]['name'],
-                    textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 16, color: Colors.white),
-                  ));
+                  height: 150,
+                  color: Colors.black45,
+                  child: Column(children: [
+                    Text(
+                      employee[i]['name'],
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 50, color: Colors.green),
+                    ),
+                    Text(
+                      employee[i]['age'],
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 50, color: Colors.red),
+                    ),
+                  ]));
             },
           ),
         ),
