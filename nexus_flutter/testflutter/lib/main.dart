@@ -13,6 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+          floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
+          floatingActionButton: FloatingActionButton(
+              child: Text("+"),
+              onPressed: () {
+                print('New');
+              }),
           appBar: AppBar(
               title: const Text("TAZZUS.apk",
                   style: TextStyle(
@@ -24,13 +30,21 @@ class MyApp extends StatelessWidget {
           // body: Container(child: Icon(Icons.star)),
           body: Container(
               padding: EdgeInsets.all(10),
-              child: Column(
+              child: ListView(
                 children: [
-                  IconButton(
-                      onPressed: () {
-                        print("Welcome");
-                      },
-                      icon: Icon(Icons.rocket))
+                  Container(
+                    height: 300,
+                    color: Colors.amber,
+                  ),
+                  Container(
+                    height: 500,
+                    color: Colors.black,
+                  ),
+                  // IconButton(
+                  //     onPressed: () {
+                  //       print("Welcome");
+                  //     },
+                  //     icon: Icon(Icons.rocket))
                   // MaterialButton(
                   //   color: Colors.amber,
                   //   textColor: Colors.green,
