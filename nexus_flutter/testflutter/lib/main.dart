@@ -31,7 +31,8 @@ class _MyAppState extends State<MyApp> {
             padding: EdgeInsets.all(10),
             child: Column(
               children: [
-                Switch(
+                SwitchListTile(
+                    title: Text("status"),
                     activeColor: Colors.amber,
                     inactiveThumbColor: Colors.black,
                     inactiveTrackColor: Colors.black,
