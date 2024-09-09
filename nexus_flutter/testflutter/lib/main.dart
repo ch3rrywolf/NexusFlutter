@@ -78,14 +78,17 @@ class MyApp extends StatelessWidget {
                             children: [
                               Icon(
                                 Icons.star,
+                                color: Colors.amber,
                                 size: 20,
                               ),
                               Icon(
                                 Icons.star,
+                                color: Colors.amber,
                                 size: 20,
                               ),
                               Icon(
                                 Icons.star,
+                                color: Colors.amber,
                                 size: 20,
                               ),
                               Icon(
@@ -98,7 +101,8 @@ class MyApp extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Text("Review")
+                          Text("3/5"),
+                          Text("Reviews")
                         ],
                       )),
                   Container(
@@ -125,7 +129,10 @@ class MyApp extends StatelessWidget {
                           Spacer(),
                           Column(
                             children: [
-                              Icon(Icons.timer),
+                              Icon(
+                                Icons.timer,
+                                color: Colors.green,
+                              ),
                               Text("time"),
                               Text("timer")
                             ],
@@ -133,7 +140,10 @@ class MyApp extends StatelessWidget {
                           Spacer(),
                           Column(
                             children: [
-                              Icon(Icons.star),
+                              Icon(
+                                Icons.star,
+                                color: Colors.amber,
+                              ),
                               Text("star"),
                               Text("starter")
                             ],
