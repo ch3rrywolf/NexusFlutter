@@ -26,19 +26,24 @@ class MyApp extends StatelessWidget {
               padding: EdgeInsets.all(10),
               child: Column(
                 children: [
-                  MaterialButton(
-                    color: Colors.amber,
-                    textColor: Colors.green,
-                    minWidth: 400,
-                    height: 50,
-                    onLongPress: () {
-                      print("Love");
-                    },
-                    onPressed: () {
-                      print("Welcome");
-                    },
-                    child: Text("Go!"),
-                  )
+                  IconButton(
+                      onPressed: () {
+                        print("Welcome");
+                      },
+                      icon: Icon(Icons.rocket))
+                  // MaterialButton(
+                  //   color: Colors.amber,
+                  //   textColor: Colors.green,
+                  //   minWidth: 400,
+                  //   height: 50,
+                  //   onLongPress: () {
+                  //     print("Love");
+                  //   },
+                  //   onPressed: () {
+                  //     print("Welcome");
+                  //   },
+                  //   child: Text("Go!"),
+                  // )
                 ],
               ))),
     );
