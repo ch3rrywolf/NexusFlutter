@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
                         color: Color.fromARGB(255, 13, 13, 14),
                         border: Border.all(color: Colors.white, width: 2)),
                     width: 400,
-                    padding: EdgeInsets.all(10),
+                    padding: EdgeInsets.all(5),
                     // color: Colors.amber,
                     child: Text(
                       "hi all",
@@ -44,10 +44,10 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.all(10),
+                    margin: EdgeInsets.all(5),
                     // margin: EdgeInsets.all(value),
                     decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 8, 8, 8),
+                        color: Color.fromARGB(255, 122, 121, 121),
                         border: Border.all(color: Colors.white, width: 2)),
                     width: 400,
                     padding: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
@@ -62,22 +62,45 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 12, 12, 12),
-                        border: Border.all(color: Colors.white, width: 2)),
-                    width: 400,
-                    padding: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
-                    // color: Colors.amber,
-                    child: Text(
-                      "hi alli ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali al",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          fontWeight: FontWeight.w600,
-                          fontSize: 20,
-                          color: Colors.green),
-                    ),
-                  ),
+                      margin: EdgeInsets.all(5),
+                      // margin: EdgeInsets.all(value),
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 165, 163, 163),
+                          border: Border.all(color: Colors.white, width: 2)),
+                      width: 400,
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 40, vertical: 10),
+                      // color: Colors.amber,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Row(
+                            children: [
+                              Icon(
+                                Icons.star,
+                                size: 20,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 20,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 20,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 20,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 20,
+                              ),
+                            ],
+                          ),
+                          Text("Review")
+                        ],
+                      )),
                 ],
               ))),
     );
