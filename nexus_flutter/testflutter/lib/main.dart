@@ -101,6 +101,46 @@ class MyApp extends StatelessWidget {
                           Text("Review")
                         ],
                       )),
+                  Container(
+                      margin: EdgeInsets.all(5),
+                      // margin: EdgeInsets.all(value),
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 165, 163, 163),
+                          border: Border.all(color: Colors.white, width: 2)),
+                      width: 400,
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 40, vertical: 10),
+                      // color: Colors.amber,
+                      child: Row(
+                        // mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Spacer(),
+                          Column(
+                            children: [
+                              Icon(Icons.person),
+                              Text("perso"),
+                              Text("worker")
+                            ],
+                          ),
+                          Spacer(),
+                          Column(
+                            children: [
+                              Icon(Icons.timer),
+                              Text("time"),
+                              Text("timer")
+                            ],
+                          ),
+                          Spacer(),
+                          Column(
+                            children: [
+                              Icon(Icons.star),
+                              Text("star"),
+                              Text("starter")
+                            ],
+                          ),
+                          Spacer(),
+                        ],
+                      )),
                 ],
               ))),
     );
