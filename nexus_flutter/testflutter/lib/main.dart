@@ -33,6 +33,15 @@ class _MyAppState extends State<MyApp> {
               children: [
                 TextField(
                   decoration: InputDecoration(
+                      border: OutlineInputBorder(),
+                      focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.red),
+                          borderRadius: BorderRadius.circular(40)),
+                      enabledBorder: OutlineInputBorder(
+                          borderSide:
+                              BorderSide(color: Colors.green, width: 2)),
+                      disabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.blue, width: 2))
                       // hintText: "Name"
                       // labelText: "Name"
                       // suffixText: "Name"
