@@ -29,8 +29,24 @@ class _MyAppState extends State<MyApp> {
                     fontStyle: FontStyle.italic))),
         body: Container(
             padding: EdgeInsets.all(10),
-            child: Stack(
-              children: [],
+            child: Column(
+              children: [
+                TextField(
+                  decoration: InputDecoration(
+                      // hintText: "Name"
+                      // labelText: "Name"
+                      // suffixText: "Name"
+                      // fillColor: Colors.red,
+                      // filled: true
+                      // prefixIcon: Icon(Icons.person),
+                      // prefixText: "Name"),
+                      // label: Text(
+                      // "Name",
+                      // style: TextStyle(color: Colors.amber),
+                      // )
+                      ),
+                )
+              ],
             )),
       ),
     );
