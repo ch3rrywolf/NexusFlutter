@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   // bool statusB = false;
   // bool statusC = false;
   TextEditingController Name = TextEditingController();
-
+  String? textval;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -34,14 +34,22 @@ class _MyAppState extends State<MyApp> {
             child: Column(
               children: [
                 TextField(
-                  controller: Name,
-                ),
-                MaterialButton(
-                  onPressed: () {
-                    print(Name.text);
+                  onChanged: (val) {
+                    setState(() {
+                      textval = val;
+                    });
                   },
-                  child: Text("print"),
-                )
+                ),
+                Text("$textval")
+                // TextField(
+                //   controller: Name,
+                // ),
+                // MaterialButton(
+                //   onPressed: () {
+                //     print(Name.text);
+                //   },
+                //   child: Text("print"),
+                // )
                 //=========
                 // TextField(
                 //   maxLength: 100,
