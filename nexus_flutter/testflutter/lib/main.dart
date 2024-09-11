@@ -12,9 +12,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool statusA = false;
-  bool statusB = false;
-  bool statusC = false;
+  // bool statusA = false;
+  // bool statusB = false;
+  // bool statusC = false;
+  TextEditingController Name = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,11 +34,21 @@ class _MyAppState extends State<MyApp> {
             child: Column(
               children: [
                 TextField(
-                  maxLength: 100,
-                  keyboardType: TextInputType.text,
-                  maxLines: 2,
-                  minLines: 1,
+                  controller: Name,
+                ),
+                MaterialButton(
+                  onPressed: () {
+                    print(Name.text);
+                  },
+                  child: Text("print"),
                 )
+                //=========
+                // TextField(
+                //   maxLength: 100,
+                //   keyboardType: TextInputType.text,
+                //   maxLines: 2,
+                //   minLines: 1,
+                // )
 
                 //=======
                 // TextField(
