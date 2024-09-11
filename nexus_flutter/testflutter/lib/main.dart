@@ -32,29 +32,37 @@ class _MyAppState extends State<MyApp> {
             child: Column(
               children: [
                 TextField(
-                  decoration: InputDecoration(
-                      border: OutlineInputBorder(),
-                      focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.red),
-                          borderRadius: BorderRadius.circular(40)),
-                      enabledBorder: OutlineInputBorder(
-                          borderSide:
-                              BorderSide(color: Colors.green, width: 2)),
-                      disabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.blue, width: 2))
-                      // hintText: "Name"
-                      // labelText: "Name"
-                      // suffixText: "Name"
-                      // fillColor: Colors.red,
-                      // filled: true
-                      // prefixIcon: Icon(Icons.person),
-                      // prefixText: "Name"),
-                      // label: Text(
-                      // "Name",
-                      // style: TextStyle(color: Colors.amber),
-                      // )
-                      ),
+                  maxLength: 100,
+                  keyboardType: TextInputType.text,
+                  maxLines: 2,
+                  minLines: 1,
                 )
+
+                //=======
+                // TextField(
+                //   decoration: InputDecoration(
+                //       border: OutlineInputBorder(),
+                //       focusedBorder: OutlineInputBorder(
+                //           borderSide: BorderSide(color: Colors.red),
+                //           borderRadius: BorderRadius.circular(40)),
+                //       enabledBorder: OutlineInputBorder(
+                //           borderSide:
+                //               BorderSide(color: Colors.green, width: 2)),
+                //       disabledBorder: OutlineInputBorder(
+                //           borderSide: BorderSide(color: Colors.blue, width: 2))
+                //       // hintText: "Name"
+                //       // labelText: "Name"
+                //       // suffixText: "Name"
+                //       // fillColor: Colors.red,
+                //       // filled: true
+                //       // prefixIcon: Icon(Icons.person),
+                //       // prefixText: "Name"),
+                //       // label: Text(
+                //       // "Name",
+                //       // style: TextStyle(color: Colors.amber),
+                //       // )
+                //       ),
+                // )
               ],
             )),
       ),
