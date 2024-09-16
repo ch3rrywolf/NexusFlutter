@@ -63,6 +63,13 @@ class _MyAppState extends State<MyApp> {
                       Icons.money,
                       color: Colors.amber[600],
                     ),
+                  ),
+                  ListTile(
+                    title: Text("Contact"),
+                    leading: Icon(
+                      Icons.support,
+                      color: Colors.green,
+                    ),
                   )
                 ],
               ),
