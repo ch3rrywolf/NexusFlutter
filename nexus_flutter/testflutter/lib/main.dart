@@ -30,10 +30,17 @@ class _MyAppState extends State<MyApp> {
         body: Container(
             padding: EdgeInsets.all(10),
             child: Form(
+              autovalidateMode: AutovalidateMode.always,
               key: formstate,
               child: Column(
                 children: [
                   TextFormField(
+                    readOnly: true,
+                    textAlign: TextAlign.center,
+                    obscureText: false,
+                    onTap: () {
+                      print("Press");
+                    },
                     onSaved: (val) {
                       username = val;
                     },
