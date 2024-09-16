@@ -12,7 +12,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  GlobalKey<FormState> formstate = GlobalKey();
+  GlobalKey<ScaffoldState> scaffoldkey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
@@ -27,13 +27,24 @@ class _MyAppState extends State<MyApp> {
             shadowColor: Colors.red,
             titleTextStyle: TextStyle(
                 fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black),
-            actions: [IconButton(onPressed: () {}, icon: Icon(Icons.start))],
+            // actions: [IconButton(onPressed: () {}, icon: Icon(Icons.start))],
           ),
-          drawer: Drawer(),
+          // drawer: Drawer(),
+          endDrawer: Drawer(),
           body: Container(
             padding: EdgeInsets.all(10),
             child: Column(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Center(
+                  child: MaterialButton(
+                    onPressed: () {
+                      scaffoldkey.currentState!.openEndDrawer();
+                    },
+                    child: Text("Open!"),
+                  ),
+                )
+              ],
             ),
           )),
     );
