@@ -36,6 +36,9 @@ class _MyAppState extends State<MyApp> {
                       if (value!.isEmpty) {
                         return "champ vide !";
                       }
+                      if (value.length < 5) {
+                        return "under 5 not valide";
+                      }
                     },
                   ),
                   MaterialButton(
@@ -43,7 +46,7 @@ class _MyAppState extends State<MyApp> {
                       if (formstate.currentState!.validate()) {
                         print("valid");
                       } else {
-                        print("not valid");
+                        print("not vide");
                       }
                     },
                     child: Text("Valid"),
