@@ -29,22 +29,35 @@ class _MyAppState extends State<MyApp> {
                 fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black),
             // actions: [IconButton(onPressed: () {}, icon: Icon(Icons.start))],
           ),
-          // drawer: Drawer(),
-          endDrawer: Drawer(),
+          drawer: Drawer(
+            child: Container(
+              padding: EdgeInsets.all(15),
+              child: ListView(
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        width: 60,
+                        height: 60,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(60),
+                          child: Image.asset(
+                            "images/TATO.jpg",
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
+          // endDrawer: Drawer(),
           body: Container(
             padding: EdgeInsets.all(10),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Center(
-                  child: MaterialButton(
-                    onPressed: () {
-                      scaffoldkey.currentState!.openEndDrawer();
-                    },
-                    child: Text("Open!"),
-                  ),
-                )
-              ],
+              children: [],
             ),
           )),
     );
