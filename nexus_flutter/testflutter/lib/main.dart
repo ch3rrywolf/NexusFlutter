@@ -46,8 +46,23 @@ class _MyAppState extends State<MyApp> {
                             fit: BoxFit.cover,
                           ),
                         ),
-                      )
+                      ),
+                      Expanded(
+                          child: ListTile(
+                        title: Text(
+                          "Ch3rryWolf.exe",
+                          style: TextStyle(color: Colors.green[500]),
+                        ),
+                        subtitle: Text("Expect Us !"),
+                      ))
                     ],
+                  ),
+                  ListTile(
+                    title: Text("Donate £"),
+                    leading: Icon(
+                      Icons.money,
+                      color: Colors.amber[600],
+                    ),
                   )
                 ],
               ),
