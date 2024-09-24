@@ -23,17 +23,31 @@ class _MyAppState extends State<MyApp> {
           key: scaffoldkey,
           appBar: AppBar(
             title: Text("GoGo!!"),
-            bottom: TabBar(tabs: [
-              Tab(
-                child: Text("Start"),
-              ),
-              Tab(
-                child: Text("Pay"),
-              ),
-              Tab(
-                child: Text("Die"),
-              )
-            ]),
+            bottom: TabBar(
+                indicatorColor: Colors.green,
+                indicatorWeight: 4,
+                labelColor: Colors.green,
+                labelStyle: TextStyle(fontSize: 20),
+                unselectedLabelColor: Colors.grey,
+                unselectedLabelStyle: TextStyle(fontSize: 10),
+                tabs: [
+                  Tab(
+                    iconMargin: EdgeInsets.all(5),
+                    icon: Icon(Icons.start),
+                    text: "Start",
+                    // child: Text("Start"),
+                  ),
+                  Tab(
+                    icon: Icon(Icons.payment),
+                    text: "Pay",
+                    // child: Text("Pay"),
+                  ),
+                  Tab(
+                    icon: Icon(Icons.error),
+                    text: "Die",
+                    // child: Text("Die"),
+                  )
+                ]),
           ),
           body: Container(
             padding: EdgeInsets.all(10),
