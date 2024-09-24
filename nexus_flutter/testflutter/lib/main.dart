@@ -19,6 +19,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
         home: DefaultTabController(
       length: 3,
+      initialIndex: 0,
       child: Scaffold(
           key: scaffoldkey,
           appBar: AppBar(
