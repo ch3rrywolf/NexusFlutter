@@ -32,6 +32,11 @@ class _MyAppState extends State<MyApp> {
             Container(
               height: 300,
               child: PageView(
+                // reverse: true,
+                // physics: NeverScrollableScrollPhysics(),
+                onPageChanged: (val) {
+                  print(val);
+                },
                 children: [
                   Image.asset("images/aa.png", fit: BoxFit.cover),
                   Image.asset("images/bb.png", fit: BoxFit.cover),
